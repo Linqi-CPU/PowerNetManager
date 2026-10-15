@@ -1,0 +1,24 @@
+__pycache__/
+*.pyc
+build/
+dist/
+*.spec
+
+# Release 二进制包（作为 GitHub Release 附件发布，不入仓库）
+PowerNetManager.zip
+
+# 调试 / 临时文件
+*.log
+grab*.py
+shot*.png
+tab_*.png
+net_*.png
+crop_*.png
+icon_*.png
+exe_*.png
+verify_*.py
+test_gui.py
+close_all.py
+probe_nic.ps1
+extract_exe_icon*.py
+make_icon*.py
